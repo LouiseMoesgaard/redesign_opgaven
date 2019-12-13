@@ -4,4 +4,22 @@
 
 body {
     margin: 0;
+
+    background-color: #F7F6F4;
+}
+
+
+#gallery img {
+    width: 100%;
+}
+
+
+/**************baggrundsfarver********/
+
+#contact {
+    background-color: #655C53;
+}
+
+#footer {
+    background-color: #342E29;
 }
