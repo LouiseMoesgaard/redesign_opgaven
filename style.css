@@ -8,11 +8,49 @@ body {
     background-color: #F7F6F4;
 }
 
-
-#gallery img {
+#gallery .col {
+    position: relative;
+    display: flex;
+    align-items: center;
     width: 100%;
+    flex-direction: row;
+    overflow: hidden;
+    flex-wrap: wrap;
+
 }
 
+#gallery .slide {
+    flex-basis: 33vw;
+    flex-grow: 2;
+}
+
+#gallery .slide,
+.slide img {
+    width: 100%;
+    min-width: 100%;
+    /* needed so Firefox doesn't make img shrink to fit */
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    display: none;
+}
+
+.next {
+    right: 0;
+}
 
 /**************baggrundsfarver start*************/
 
@@ -24,7 +62,17 @@ body {
     background-color: #342E29;
 }
 
+@media only screen and (max-width: 600px) {
+    #gallery .col {
+    height: 50vh;
+    max-height: 100vh;
+        }
 
+.prev,
+    .next {
+        display: block;
+    }
+}
 /**************baggrundsfarve slut*************/
 
 
