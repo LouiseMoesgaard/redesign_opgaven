@@ -9,18 +9,9 @@ body {
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-/* Tekst */
-
-p{
-    font-family: Cochin;
-}
-
-h1 {
-    font-family: Bangla MN;
-}
 
 
 
@@ -96,7 +87,7 @@ nav a {
     color: #342E29;
 }
 
-.menu_logo{
+.menu_logo {
 
     display: none;
 
@@ -104,7 +95,7 @@ nav a {
 
     position: absolute;
     height: 50%;
-    width:50%;
+    width: 50%;
 }
 
 
@@ -175,20 +166,30 @@ nav a {
 
 @media only screen and (max-width: 600px) {
     #gallery .col {
-    height: 50vh;
-    max-height: 100vh;
-        }
+        height: 50vh;
+        max-height: 100vh;
+    }
 
-.prev,
+    .prev,
     .next {
         display: block;
     }
 }
+
 /**************baggrundsfarve slut*************/
 
 
 
 /**************skrift start********/
+/* Tekst */
+
+p {
+    font-family: Cochin;
+}
+
+h1 {
+    font-family: Bangla MN;
+}
 
 /**************skrift slut ********/
 
