@@ -12,6 +12,18 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Tekst */
+
+p{
+    font-family: Cochin;
+}
+
+h1 {
+    font-family: Bangla MN;
+}
+
+
+
 
 /* Navigations bar */
 
