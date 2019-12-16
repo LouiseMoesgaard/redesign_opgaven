@@ -4,36 +4,52 @@
 
 body {
     margin: 0;
+    padding: 0;
 
     background-color: #F7F6F4;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 2vw;
+    margin: 3vw;
 }
 
 /* Tekst */
 
-p{
-    font-family: Cochin;
+p {
+
+    font-family: 'EB Garamond', serif;
 }
 
 h1 {
-    font-family: Bangla MN;
+    font-family: 'Tenor Sans', sans-serif;
+
+    text-align: center;
+
 }
 
 
-
-
-/* Navigations bar */
+/*************************** Navigations bar *************************/
 
 nav {
     overflow: hidden;
 
-    background-color: #655C53;
+    background-color: rgba(101, 92, 83, .4);
 
 
-    margin: 0;
+    top: 0;
+    left: 0;
+
+    position: fixed;
+
+    width: 100vw;
+
+    z-index: 3;
+
 }
 
 nav a {
@@ -73,13 +89,26 @@ nav a {
 
 }
 
+.menu_container {
+    width: 100vw;
+    flex-direction: row-reverse;
+    display: none;
+}
 
 .menu {
-    display: none;
     position: relative;
     background-color: #655C53;
     width: 50vw;
     z-index: 1;
+
+    flex-grow: 1;
+}
+
+.menu_container img {
+    z-index: 1;
+    flex-grow: 1;
+
+    width: 25%;
 }
 
 .menu a {
@@ -96,28 +125,67 @@ nav a {
     color: #342E29;
 }
 
-.menu_logo{
-
-    display: none;
+.menu_logo {
 
     background-image: url("billeder/hvidstol.jpg");
 
     position: absolute;
     height: 50%;
-    width:50%;
+    width: 50%;
 }
 
 
-.dropdown:hover .menu {
-    display: block;
+.dropdown:hover .menu_container {
+    display: flex;
 }
 
-.dropdown:hover .menu_logo {
-    display: block;
+nav .dropdown:hover {
+    background-color: rgba(101, 92, 83, 1)
+}
+
+nav #tilbud_knap .dropdown:hover {
+    display: none;
 }
 
 
-/* Galleri */
+
+/*************************** landingpage ****************************/
+
+/******* Video********/
+#video {
+    width: 100vw;
+    height: 30vw;
+    padding: 0;
+    margin: 0;
+}
+
+#video_content {
+    position: relative;
+}
+
+video {
+    width: 100%;
+}
+
+/****** Tekst **********/
+#landingpage p {
+    color: #655C53;
+
+    text-align: center;
+}
+
+#landingpage h1 {
+    color: #655C53;
+}
+
+#tilbud_knap{
+    float:right;
+    margin
+}
+
+
+
+/*************************** Galleri ********************************/
 
 #gallery .col {
     position: relative;
@@ -128,6 +196,10 @@ nav a {
     overflow: hidden;
     flex-wrap: wrap;
 
+}
+
+#gallery h1 {
+    color: #655C53;
 }
 
 #gallery .slide {
@@ -163,42 +235,51 @@ nav a {
     right: 0;
 }
 
-/**************baggrundsfarver start*************/
+/************** price *************/
+/************** about *************/
 
+#about p {
+    color: #655C53;
+}
+
+#about h1 {
+    color: #655C53;
+}
+
+
+/************** contact *************/
 #contact {
+    margin: 0;
     background-color: #655C53;
 }
 
+#contact p {
+    color: #F7F6F4;
+}
+
+#contact h1 {
+    color: #F7F6F4;
+}
+
+/**************footer*************/
+
 #footer {
+    margin: 0;
     background-color: #342E29;
 }
 
-@media only screen and (max-width: 600px) {
-    #gallery .col {
-    height: 50vh;
-    max-height: 100vh;
-        }
 
-.prev,
-    .next {
-        display: block;
-    }
+#footer p {
+    color: #948F8A;
+
+    text-align: center;
 }
-/**************baggrundsfarve slut*************/
+
+#footer h1 {
+    color: #948F8A;
+}
 
 
-
-/**************skrift start********/
-
-/**************skrift slut ********/
-
-
-
-
-
-/**************flex start********/
-
-/**************flex slut********/
 
 
 
@@ -212,6 +293,15 @@ nav a {
 
 
 
-/**************style start********/
+/************** media query **********/
+@media only screen and (max-width: 600px) {
+    #gallery .col {
+        height: 50vh;
+        max-height: 100vh;
+    }
 
-/**************style slut********/
+    .prev,
+    .next {
+        display: block;
+    }
+}
