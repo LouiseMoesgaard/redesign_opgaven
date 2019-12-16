@@ -121,15 +121,24 @@ nav a {
     color: #342E29;
 }
 
-.menu_logo {
+#menu_logo {
 
     display: none;
 
-    background-image: url("billeder/hvidstol.jpg");
+    background-image: url(billeder/logo_menu.svg);
 
     position: absolute;
-    height: 50%;
-    width: 50%;
+    height: 46.52vw;
+    width: 50vw;
+
+    top: -2vw;
+    right: 10vw;
+
+    background-size: cover;
+
+    z-index: 5;
+
+
 }
 
 
@@ -137,7 +146,7 @@ nav a {
     display: block;
 }
 
-.dropdown:hover .menu_logo {
+.dropdown:hover #menu_logo {
     display: block;
 }
 
