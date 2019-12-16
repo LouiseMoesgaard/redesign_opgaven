@@ -44,6 +44,9 @@ nav {
     left: 0;
 
     position: fixed;
+    z-index: 10;
+
+    width: 100vw;
 
 }
 
@@ -85,7 +88,6 @@ nav a {
 }
 
 .menu_container {
-    width: 100vw;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -138,6 +140,8 @@ nav a {
 
     z-index: 5;
 
+    margin: 0;
+
 
 }
 
@@ -148,6 +152,50 @@ nav a {
 
 .dropdown:hover #menu_logo {
     display: block;
+}
+
+.dropdown:hover + #nav_logo {
+    display: none;
+}
+
+.dropdown:hover + #tilbud_button {
+    display: none;
+}
+
+#nav_logo {
+    float: right;
+    background-image: url(billeder/logo_menu.svg);
+    position: relative;
+    height: 5.58vw;
+    width: 6vw;
+
+    margin: 0;
+
+    background-size: contain;
+
+    z-index: 4;
+
+    top: -0.3vw;
+}
+
+#tilbud_button {
+    float: right;
+    background-image: url(billeder/tilbud_div.svg);
+    height: 4.33vw;
+    width: 15vw;
+
+    margin-right: 3vw;
+    margin-left: 29vw;
+    margin-top: 0.4vw;
+
+
+    background-size: cover;
+
+
+    z-index: 11;
+
+
+
 }
 
 
