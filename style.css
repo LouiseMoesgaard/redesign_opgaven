@@ -88,8 +88,7 @@ nav a {
 }
 
 .menu_container {
-    display: flex;
-    flex-direction: row-reverse;
+    z-index: 12;
 }
 
 .menu {
@@ -99,15 +98,8 @@ nav a {
     width: 50vw;
     z-index: 1;
 
-    flex-grow: 1;
 }
 
-.menu_container img {
-    z-index: 1;
-    flex-grow: 1;
-
-    width: 25%;
-}
 
 .menu a {
     float: none;
