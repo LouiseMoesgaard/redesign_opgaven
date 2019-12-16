@@ -225,6 +225,45 @@ h1 {
     font-family: Bangla MN;
 }
 
+#landingpage p {
+    color: #655C53;
+}
+
+#landingpage h1 {
+    color: #655C53;
+}
+
+
+#gallery h1 {
+    color: #655C53;
+}
+
+#about p {
+    color: #655C53;
+}
+
+#about h1 {
+    color: #655C53;
+}
+
+
+#contact p {
+    color: #F7F6F4;
+}
+
+#contact h1 {
+    color: #F7F6F4;
+}
+
+
+#footer p {
+    color: #948F8A;
+}
+
+#footer h1 {
+    color: #948F8A;
+}
+
 /**************skrift slut ********/
 
 
