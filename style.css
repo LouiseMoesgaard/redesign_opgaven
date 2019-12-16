@@ -147,7 +147,6 @@ nav a {
 /******* Video********/
 #video {
     width: 100vw;
-    height: 30vw;
     padding: 0;
     margin: 0;
 }
@@ -171,21 +170,30 @@ video {
     color: #655C53;
 }
 
-
-
+#semere_div {
+    margin: 0 auto;
+    width: 15vw;
+    height: 4.5vw;
+    background-size: cover;
+    background-image: url("billeder/semere_div.svg");
+}
 
 
 /*************************** Galleri ********************************/
 
 #gallery .col {
     position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#gallery .slides {
+    position: relative;
     display: flex;
     align-items: center;
     width: 100%;
     flex-direction: row;
-    overflow: hidden;
     flex-wrap: wrap;
-
 }
 
 #gallery h1 {
@@ -193,15 +201,33 @@ video {
 }
 
 #gallery .slide {
-    flex-basis: 33vw;
+    flex-basis: 25vw;
+    margin: 1vw;
     flex-grow: 2;
+    position: relative;
 }
 
-#gallery .slide,
 .slide img {
     width: 100%;
     min-width: 100%;
-    /* needed so Firefox doesn't make img shrink to fit */
+
+}
+
+.slide .text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    padding: 10px;
+    padding-top: 12vw;
+    color: #F8F2F2;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.slide:hover .text {
+    display: block;
 }
 
 .prev,
@@ -210,11 +236,11 @@ video {
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -22px;
+    margin-top: -50px;
     padding: 16px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 50px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -226,7 +252,38 @@ video {
 }
 
 /************** price *************/
+
+#prices {
+    background-image: url("billeder/vaerksted.jpg");
+    background-size: cover;
+    padding: 5vw 0;
+}
+
+#prices .sectionwrapper {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #F8F2F2;
+    width: 75vw;
+    margin: 0 auto;
+    padding: 5px 40px;
+}
+
 /************** about *************/
+
+/******* Video********/
+#prices #video {
+    width: 100vw;
+    height: 30vw;
+    padding: 0;
+    margin: 0;
+}
+
+#prices #video_content {
+    position: relative;
+}
+
+#prices video {
+    width: 100%;
+}
 
 #about p {
     color: #655C53;
@@ -285,13 +342,77 @@ video {
 
 /************** media query **********/
 @media only screen and (max-width: 600px) {
+    .slide .text {
+        position: static;
+        display: block;
+        width: auto;
+        padding: 0;
+        background-color: transparent;
+        padding-top: 0;
+        color: black;
+        height: auto;
+
+    }
+
+    #semere_div {
+        width: 30vw;
+        height: 9vw;
+    }
+
     #gallery .col {
-        height: 50vh;
+        height: 68.9vh;
         max-height: 100vh;
+    }
+
+    #gallery .slides {
+        flex-wrap: nowrap;
     }
 
     .prev,
     .next {
         display: block;
+    }
+
+
+    #gallery .slide {
+        width: 100%;
+        min-width: 100%;
+        margin: 0;
+    }
+
+    .slide0 {
+        left: 0;
+    }
+
+    .slide1 {
+        left: -90vw;
+    }
+
+    .slide2 {
+        left: -180vw;
+    }
+
+    .slide3 {
+        left: -270vw;
+    }
+
+    .slide4 {
+        left: -360vw;
+    }
+
+    .slide5 {
+        left: -450vw;
+    }
+
+    .slide6 {
+        left: -540vw;
+    }
+
+    .slide7 {
+        left: -630vw;
+    }
+
+    .slide8 {
+        left: -720vw;
     }
 }
