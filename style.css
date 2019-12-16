@@ -218,11 +218,15 @@ video {
 /* Tekst */
 
 p {
-    font-family: Cochin;
+    font-family: 'Cochin';
+    font-size: ;
+    text-transform: ;
 }
 
 h1 {
-    font-family: Bangla MN;
+    font-family: 'Bangla MN';
+    font-size: ;
+    text-transform: ;
 }
 
 #landingpage p {
