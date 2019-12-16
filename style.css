@@ -218,11 +218,12 @@ video {
 /* Tekst */
 
 p {
-    font-family: Cochin;
+    font-family: 'EB Garamond', serif;
 }
 
 h1 {
-    font-family: Bangla MN;
+    font-family: 'Tenor Sans', sans-serif;
+
 }
 
 #landingpage p {
