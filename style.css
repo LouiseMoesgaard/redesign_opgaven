@@ -17,7 +17,7 @@ html {
 
 
 
-/* Navigations bar */
+/*************************** Navigations bar *************************/
 
 nav {
     overflow: hidden;
@@ -126,7 +126,7 @@ nav a {
 }
 
 
-/* landingpage */
+/*************************** landingpage ****************************/
 
 #video {
     width: 100vw;
@@ -142,7 +142,7 @@ video {
 }
 
 
-/* Galleri */
+/*************************** Galleri ********************************/
 
 #gallery .col {
     position: relative;
