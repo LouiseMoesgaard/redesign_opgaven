@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    padding: 0;
 
     background-color: #F7F6F4;
 }
@@ -23,8 +24,11 @@ nav {
 
     background-color: #655C53;
 
+    top: 0;
+    left: 0;
 
-    margin: 0;
+    position: fixed;
+
 }
 
 nav a {
@@ -64,6 +68,11 @@ nav a {
 
 }
 
+.menu_container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 .menu {
     display: none;
@@ -71,6 +80,15 @@ nav a {
     background-color: #655C53;
     width: 50vw;
     z-index: 1;
+
+    flex-grow: 1;
+}
+
+.menu_container img {
+    z-index: 1;
+    flex-grow: 1;
+
+    width: 25%;
 }
 
 .menu a {
@@ -105,6 +123,22 @@ nav a {
 
 .dropdown:hover .menu_logo {
     display: block;
+}
+
+
+/* landingpage */
+
+#video {
+    width: 100vw;
+    height: 30vw;
+}
+
+#video_content {
+    position: relative;
+}
+
+video {
+    width: 100%;
 }
 
 
