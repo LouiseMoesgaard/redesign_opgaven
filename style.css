@@ -152,17 +152,12 @@ nav .dropdown:hover {
 
 
 
-<<<<<<< HEAD
 nav .dropdown:hover + #tilbud_button {
     display: none;
 }
 
 nav .dropdown:hover + #nav_logo {
 
-=======
-nav .dropdown:hover + #tilbud_button,
-#nav_logo {
->>>>>>> origin/master
     display: none;
 }
 
