@@ -152,7 +152,12 @@ nav .dropdown:hover {
 
 
 
-nav .dropdown:hover + #tilbud_button, #nav_logo {
+nav .dropdown:hover + #tilbud_button {
+    display: none;
+}
+
+nav .dropdown:hover + #nav_logo {
+
     display: none;
 }
 
@@ -162,6 +167,8 @@ nav .dropdown:hover + #tilbud_button, #nav_logo {
     position: relative;
     height: 5.58vw;
     width: 6vw;
+
+    top:-0.3vw;
 
     margin: 0;
 
@@ -352,6 +359,30 @@ video {
 
 
 /************** contact *************/
+
+/*** FLEX ***/
+
+#contact .sectionwrapper {
+    display: flex;
+    flex-direction: row;
+
+    flex-basis: 2;
+}
+
+#contact .sectionwrapper .col {
+    flex-grow: 1;
+    width: 100vw;
+
+}
+
+#contact .sectionwrapper .form {
+    flex-grow: 1;
+    width: 100vw;
+
+}
+
+
+
 #contact {
     margin: 0;
     background-color: #655C53;
@@ -372,6 +403,8 @@ video {
         height: 40vw;
 
       }
+
+
 
 /**************footer*************/
 
