@@ -403,14 +403,10 @@ video {
 #map {
     width: 100%;
     height: 40vw;
-    <<<<<<< HEAD
-}
 
-=======
 }
 
 
-> > > > > > > origin/master
 /**************footer*************/
 
 footer {
@@ -419,6 +415,7 @@ footer {
     margin: 0;
     align-items: center;
     background-color: #342E29;
+    width: 100vw;
 }
 
 .menu_footer {
