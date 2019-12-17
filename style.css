@@ -359,26 +359,35 @@ video {
 
 /**************footer*************/
 
-#footer {
+footer {
+    display: flex;
+    flex-wrap: wrap;
     margin: 0;
+    align-items: center;
     background-color: #342E29;
 }
 
+.menu_footer {
+    flex-basis: 350px;
+    flex-grow: 3;
+}
 
-#footer p {
+.oplysninger {
+    flex-basis: 350px;
+    flex-grow: 3;
+
+}
+
+
+footer p {
     color: #948F8A;
 
     text-align: center;
 }
 
-#footer h1 {
+footer h1 {
     color: #948F8A;
 }
-
-
-
-
-
 
 
 
