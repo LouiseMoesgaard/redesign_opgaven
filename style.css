@@ -284,7 +284,7 @@ video {
     padding-top: 12vw;
     color: #F8F2F2;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .slide:hover .text {
