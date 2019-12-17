@@ -312,7 +312,7 @@ video {
 }
 
 #prices .sectionwrapper {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     color: #F8F2F2;
     width: 75vw;
     margin: 0 auto;
@@ -485,12 +485,14 @@ footer h1 {
     }
 
     #prices {
-        width: 85vw;
-        height: 70vw;
+        width: 88vw;
+        height: 45vw;
+        margin: 0 6vw;
     }
 
     #prices .sectionwrapper {
-        height: 60vw;
+        height: 35vw;
+        width: 45vw;
     }
 
 
