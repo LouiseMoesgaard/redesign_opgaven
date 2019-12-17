@@ -403,6 +403,8 @@ video {
 #map {
     width: 100%;
     height: 40vw;
+    background-image: url(billeder/map_background.png);
+    background-size: cover;
 }
 
 
