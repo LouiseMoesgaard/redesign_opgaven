@@ -38,7 +38,7 @@ h1 {
 nav {
     overflow: hidden;
 
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 
     top: 0;
     left: 0;
@@ -482,6 +482,15 @@ footer h1 {
 
     .dropdown:hover #menu_logo {
         display: block;
+    }
+
+    #prices {
+        width: 85vw;
+        height: 70vw;
+    }
+
+    #prices .sectionwrapper {
+        height: 60vw;
     }
 
 
