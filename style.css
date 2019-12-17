@@ -55,7 +55,7 @@ nav a {
     float: left;
     font-size: 1.4vw;
     font-family: sans-serif;
-    color: #655C53;
+    color: #342E29;
     text-align: center;
     padding: 1vw;
     text-decoration: none;
@@ -81,14 +81,14 @@ nav a {
 }
 
 .dropdown:hover .burger_icon {
-    background-color: #655C53;
-    color: #342E29;
+    background-color: #342E29;
+    color: #655C53;
 
 
 }
 
 nav .dropdown:hover {
-    background-color: #655C53;
+    background-color: #342E29;
     width: 100vw;
 }
 
@@ -99,7 +99,7 @@ nav .dropdown:hover {
 .menu {
     display: none;
     position: relative;
-    background-color: #655C53;
+    background-color: #342E29;
     width: 50vw;
     z-index: 1;
 
@@ -109,7 +109,7 @@ nav .dropdown:hover {
 .menu a {
     float: none;
     font-size: 5vw;
-    color: #F7F6F4;
+    color: #655C53;
     padding: 1vw 1.2vw;
     text-decoration: none;
     display: block;
@@ -117,7 +117,8 @@ nav .dropdown:hover {
 }
 
 .menu a:hover {
-    color: #342E29;
+    color:#F7F6F4;
+    opacity: 70%;
 }
 
 #menu_logo {
@@ -129,6 +130,7 @@ nav .dropdown:hover {
     position: absolute;
     height: 46.52vw;
     width: 50vw;
+    opacity: 20%;
 
     top: -2vw;
     right: 10vw;
@@ -179,9 +181,9 @@ nav .dropdown:hover + #nav_logo {
     height: 4.33vw;
     width: 15vw;
 
-    margin-right: 3vw;
+    margin-right: 2vw;
     margin-left: 29vw;
-    margin-top: 0.4vw;
+    margin-top: 0.6vw;
 
 
     background-size: cover;
