@@ -405,6 +405,7 @@ video {
     height: 40vw;
     background-image: url(billeder/map_background.png);
     background-size: cover;
+
 }
 
 
@@ -417,6 +418,7 @@ footer {
     margin: 0;
     align-items: center;
     background-color: #342E29;
+    width: 100vw;
 }
 
 .menu_footer {
