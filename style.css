@@ -117,7 +117,7 @@ nav .dropdown:hover {
 }
 
 .menu a:hover {
-    color:#F7F6F4;
+    color: #F7F6F4;
     opacity: 70%;
 }
 
@@ -321,6 +321,11 @@ video {
     padding: 5px 40px;
 }
 
+#prices .sectionwrapper p {
+    font-family: 'Source Serif Pro', serif;
+
+}
+
 /************** about *************/
 
 /******* Video********/
@@ -497,5 +502,15 @@ footer h1 {
         width: 45vw;
     }
 
+    #prices .sectionwrapper p {
+        font-size: 2vw;
+    }
 
+    h1 {
+        font-size: 3.3vw;
+    }
+
+    p {
+        font-size: 1.8vw;
+    }
 }
