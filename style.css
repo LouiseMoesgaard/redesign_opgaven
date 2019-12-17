@@ -168,7 +168,7 @@ nav .dropdown:hover + #nav_logo {
     height: 5.58vw;
     width: 6vw;
 
-    top:-0.3vw;
+    top: -0.3vw;
 
     margin: 0;
 
@@ -282,7 +282,7 @@ video {
     padding-top: 12vw;
     color: #F8F2F2;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .slide:hover .text {
