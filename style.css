@@ -306,7 +306,7 @@ video {
 /************** price *************/
 
 #prices {
-    background-image: url("billeder/vaerksted.jpg");
+    background-image: url("billeder/pris_billede.jpg");
     background-size: cover;
     padding: 5vw 0;
 }
