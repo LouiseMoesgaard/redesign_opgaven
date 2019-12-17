@@ -152,17 +152,14 @@ nav .dropdown:hover {
 
 
 
-<<<<<<< HEAD
-nav .dropdown:hover + #tilbud_button,
-#nav_logo {
-=======
+
+
 nav .dropdown:hover + #tilbud_button {
     display: none;
 }
 
 nav .dropdown:hover + #nav_logo {
 
->>>>>>> origin/master
     display: none;
 }
 
@@ -406,16 +403,14 @@ video {
 #map {
     width: 100%;
     height: 40vw;
-<<<<<<< HEAD
-
+    <<<<<<< HEAD
 }
+
 =======
-
 }
 
 
->>>>>>> origin/master
-
+> > > > > > > origin/master
 /**************footer*************/
 
 footer {
