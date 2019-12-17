@@ -27,3 +27,21 @@ function showSlides(n) {
 
 
 }
+
+// Initialize and add the map
+function initMap() {
+  // The location
+  let adresse = {lat: 55.675095, lng: 12.542914};
+  // The map, centered at location
+  let map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 18, center: adresse});
+  // The marker, positioned at Uluru
+  let marker = new google.maps.Marker({position: adresse, map: map});
+
+
+}
+
+
+
+
+
