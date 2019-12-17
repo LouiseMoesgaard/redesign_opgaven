@@ -440,6 +440,24 @@ footer h1 {
 
 
 
+#fb_icon {
+    color: #948F8A;
+    float: left;
+    margin-left: 40vw;
+    padding: 1vw;
+}
+
+#ig_icon {
+    color: #948F8A;
+    float: right;
+    margin-right: 40vw;
+    padding: 1vw;
+
+
+}
+
+
+
 /**************animationer start********/
 
 /**************animationer slut********/
