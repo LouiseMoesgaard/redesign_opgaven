@@ -223,7 +223,7 @@ video {
 /****** Tekst **********/
 #landingpage p {
     color: #655C53;
-
+    padding: 0 10vw 2vw 10vw;
     text-align: center;
 }
 
@@ -353,6 +353,8 @@ video {
 
 #about p {
     color: #655C53;
+    padding: 0 10vw 0vw 10vw;
+
 }
 
 #about h1 {
