@@ -152,7 +152,8 @@ nav .dropdown:hover {
 
 
 
-nav .dropdown:hover + #tilbud_button, #nav_logo {
+nav .dropdown:hover + #tilbud_button,
+#nav_logo {
     display: none;
 }
 
@@ -368,10 +369,10 @@ video {
 /** Maps **/
 
 #map {
-        width: 100%;
-        height: 40vw;
+    width: 100%;
+    height: 40vw;
 
-      }
+}
 
 /**************footer*************/
 
