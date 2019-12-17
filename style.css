@@ -38,7 +38,7 @@ h1 {
 nav {
     overflow: hidden;
 
-    background-color: #655C53;
+    background-color: rgba(0,0,0,0.4);
 
     top: 0;
     left: 0;
@@ -85,6 +85,11 @@ nav a {
     color: #342E29;
 
 
+}
+
+nav .dropdown:hover {
+    background-color: #655C53;
+    width: 100vw;
 }
 
 .menu_container {
@@ -142,11 +147,8 @@ nav a {
     display: block;
 }
 
-.dropdown:hover #menu_logo {
-    display: block;
-}
 
-.dropdown:hover + #nav_logo {
+nav .dropdown:hover + #nav_logo {
     display: none;
 }
 
@@ -168,6 +170,7 @@ nav a {
     z-index: 4;
 
     top: -0.3vw;
+
 }
 
 #tilbud_button {
@@ -473,4 +476,13 @@ footer h1 {
     .slide8 {
         left: -720vw;
     }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .dropdown:hover #menu_logo {
+        display: block;
+    }
+
+
 }
