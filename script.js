@@ -13,7 +13,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
     let slides = document.getElementsByClassName("slide");
-
+    let slideContainer = document.querySelector(".slides");
     if (n > slides.length - 1) {
         slideIndex = 0;
     } else if (n < 0) {
@@ -22,9 +22,8 @@ function showSlides(n) {
         slideIndex = n;
     }
 
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
+    slideContainer.className = "slides";
+    slideContainer.classList.add("slide" + slideIndex);
 
-    slides[slideIndex].style.display = "block";
+
 }

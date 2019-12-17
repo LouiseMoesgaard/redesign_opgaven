@@ -8,6 +8,8 @@
     <meta name="robots" content="noindex">
     <link rel="stylesheet" href="style.css">
 
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Tenor+Sans&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/63d019910b.js" crossorigin="anonymous"></script>
 
 </head>
@@ -39,7 +41,7 @@
                     <div class="menu">
                         <ul> <a href="#landingpage">Forside</a></ul>
                         <ul> <a href="#gallery">Galleri</a></ul>
-                        <ul> <a href="#prices">Priser</a></ul>
+                        <ul> <a href="#prices">Pris</a></ul>
                         <ul> <a href="#about">Om</a></ul>
                         <ul> <a href="#contact">Kontakt</a></ul>
 
@@ -47,8 +49,7 @@
 
                     </div>
 
-                    <img class="menu_logo" src="billeder/hvidstol.jpg" alt="plz virk">
-
+                    <div id="menu_logo"></div>
 
                 </div>
 
@@ -56,11 +57,15 @@
             </div>
 
 
+
+            <div id="tilbud_button"></div>
+
+            <div id="nav_logo"></div>
+
+
         </nav>
 
-        <div id=tilbud_div>
-            <img src="billeder/tilbud_div.png" alt="tilbud">
-        </div>
+
     </header>
 
 
@@ -69,11 +74,10 @@
     <section id="landingpage">
 
         <h1>Jan W. Genbrug</h1>
-        <p> I mit værksted laves alle møbler af genbrugsmaterialer, derfor er intet møbel ens, og hvert møbel har sin egen unikke historie.</p>
+        <p> I mit værksted laves alle møbler af forskellige genbrugsmaterialer - derfor er intet produkt ens, og hvert møbel har dermed sin egen unikke historie.</p>
 
 
         <div id=semere_div>
-            <img src="billeder/semere_div.png" alt="semere">
         </div>
 
     </section>
@@ -84,41 +88,43 @@
             <h1>Galleri</h1>
 
             <div class="col">
-                <div class="slide">
-                    <img src="billeder/langbord.jpg" alt="langbord">
-                    <div class="text"> noget text</div>
-                </div>
-                <div class="slide">
-                    <img src="billeder/plankebord.jpg" alt="plankebord">
-                    <div class="text"> noget text</div>
-                </div>
-                <div class="slide">
-                    <img src="billeder/baenk.JPG" alt="baenk">
-                    <div class="text"> noget text</div>
-                </div>
-                <div class="slide">
-                    <img src="billeder/reol.JPG" alt="reol">
-                    <div class="text"> noget text</div>
-                </div>
-                <div class="slide">
-                    <img src="billeder/komode.JPG" alt="komode">
-                    <div class="text"> noget text</div>
-                </div>
-                <div class="slide">
-                    <img src="billeder/groenne.jpg" alt="groenne">
-                    <div class="text"> noget text</div>
-                </div>
-                <div class="slide">
-                    <img src="billeder/bordben.jpg" alt="bordben">
-                    <div class="text"> noget text</div>
-                </div>
-                <div class="slide">
-                    <img src="billeder/udenfor.jpeg" alt="udenfor">
-                    <div class="text"> noget text</div>
-                </div>
-                <div class="slide">
-                    <img src="billeder/hvidstol.jpg" alt="hvidstol">
-                    <div class="text"> noget text</div>
+                <div class="slides">
+                    <div class="slide">
+                        <img src="billeder/red_sav.jpg" alt="sav">
+                        <div class="text"> noget text 1</div>
+                    </div>
+                    <div class="slide">
+                        <img src="billeder/red_baenk.jpg" alt="baenk">
+                        <div class="text"> noget text 2</div>
+                    </div>
+                    <div class="slide">
+                        <img src="billeder/red_vaerksted2.jpg" alt="vaerksted">
+                        <div class="text"> noget text</div>
+                    </div>
+                    <div class="slide">
+                        <img src="billeder/red_bord2.jpg" alt="bord2">
+                        <div class="text"> noget text</div>
+                    </div>
+                    <div class="slide">
+                        <img src="billeder/red_kommode.jpg" alt="komode">
+                        <div class="text"> noget text</div>
+                    </div>
+                    <div class="slide">
+                        <img src="billeder/red_skuffe.jpg" alt="skuffe">
+                        <div class="text"> noget text</div>
+                    </div>
+                    <div class="slide">
+                        <img src="billeder/vaerksted.jpg" alt="vaerksted2">
+                        <div class="text"> noget text</div>
+                    </div>
+                    <div class="slide">
+                        <img src="billeder/red_bord1.jpg" alt="bord">
+                        <div class="text"> noget text</div>
+                    </div>
+                    <div class="slide">
+                        <img src="billeder/red_bor.jpg" alt="bor">
+                        <div class="text"> noget text</div>
+                    </div>
                 </div>
 
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -131,11 +137,11 @@
     <section id="prices">
 
         <div class="sectionwrapper">
-            <h1>Priser</h1>
+            <h1>Pris</h1>
 
-            <p>Alle møbler er lavet af genbrugsmaterialer og tilpasset de mål som du ønsker, derfor kan priserne variere.
+            <p>Alle priser varierer alt efter hvilket genbrugsmaterialer, der benyttes. Priserne afhænger ydermere af størrelsen på møblet, da vi tilpasser dine ønsker.
 
-                Du kan udfylde formularen under kontakt for at få et vejledende tilbud.</p>
+                Du kan udfylde formularen nederst på siden under kontakt for at få et vejledende tilbud.</p>
 
         </div>
 
@@ -147,7 +153,19 @@
             <h1>Om</h1>
             <div class="aboutvideo">
 
-                <p>Mit værksted på Frederiksberg er som mit andet hjem, hvor jeg har plads til at udfolde alle mine kreative idéer. Jeg elsker at fordybe mig i mit arbejde og udfordre mine evner indenfor håndværk og alt andet, hvor man bruger sine hænder.</p>
+                <p>Værkstedet ligger på Frederiksberg, og er som mit andet hjem - her har jeg plads til at udfolde alle mine kreative sider, samt bruge mine hænder. Jeg elsker at fordybe mig i mit arbejde og udfordre mine evner indenfor håndværk. Derfor er alle mine varer håndlavet.
+
+                    <br>
+                    <br>
+
+                    Min passion for håndværk startede tidligt, og jeg er blandt andet uddannet snedker og svejser.
+                    Jeg har stor forståelse for at når det kommer til interiør, så har alle mennekser forskellige ønsker om hvordan det skal se ud. Her gør jeg mit bedste, for at føre disse ønsker ud i livet i tæt samarbejde med mine kunder.
+
+                    <br>
+                    <br>
+
+                    I takt med at bægerdygtighed kommer mere og mere i fokus, er det oplagt at vi benytter os af genbrug. Gamle ting får nyt liv og der tilknyttes ny historie. Meget unødvendigt bliver smidt ud, og jeg vil med mine produkter vise at det ikke behøver at være tilfældet.
+                    Alt kunne sagtens være masseproduceret, men hvorfor ikke hellere have sit eget unikke og rustikke møbel? </p>
 
             </div>
 
@@ -179,21 +197,29 @@
 
     </section>
 
-    <section id="footer">
-        <footer>
-            <div class="menu_footer">
-                <p>Forside</p>
-                <p>Galleri</p>
-                <p>Om</p>
-                <p>Kontakt</p>
-            </div>
 
-            <div class="oplysninger">
-                <p>Janw@Janwgenbrug.dk</p>
-                <p>+45 20 43 62 92</p>
-            </div>
+    <footer>
+        <div class="menu_footer">
+            <p>Forside</p>
+            <p>Galleri</p>
+            <p>Om</p>
+            <p>Kontakt</p>
+        </div>
 
-        </footer>
-    </section>
+        <div class="oplysninger">
+            <p>Janw@Janwgenbrug.dk</p>
+            <p>+45 20 43 62 92</p>
+
+            <div class="footer_icon">
+
+                <div id="fb_icon"></div>
+                <div id="ig_icon"></div>
+
+            </div>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
-</body></html>
+</body>
+
+</html>
