@@ -370,7 +370,7 @@ textarea {
     width: 80%;
     /* Full width */
     padding: 0.7vw;
-    /* Round border size */
+    /* padding around text and box */
     border-radius: 0.5vw;
     /* Rounded borders */
     box-sizing: border-box;
@@ -381,10 +381,17 @@ textarea {
     /* Bottom margin */
     resize: vertical;
     /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: rgba(255, 255, 255, 0.53);
+    border: 0;
+    color: #F7F6F4;
+}
+
+::placeholder {
+    color: rgba(247, 246, 244, 0.65);
 }
 
 input[type=besked] {
-    color: rgba(255, 255, 255, 0.62);
+    color: #F7F6F4;
     padding: 0.8vw 1.2vw;
     border: none;
     border-radius: 0.3vw;
@@ -394,6 +401,9 @@ input[type=besked] {
 /* When moving the mouse over the submit button, add a darker color */
 input[type=submit]:hover {
     background-color: #F7F6F4;
+    border-radius: 0.5vw;
+    /* Rounded borders */
+    box-sizing: border-box;
 }
 
 /* Add a background color and some padding around the form */
