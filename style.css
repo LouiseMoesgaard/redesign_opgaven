@@ -477,7 +477,13 @@ footer {
 .menu_footer {
     flex-basis: 350px;
     flex-grow: 3;
+    text-decoration: none;
 }
+
+.menu_footer a {
+    text-decoration: none;
+}
+
 
 .oplysninger {
     flex-basis: 350px;
