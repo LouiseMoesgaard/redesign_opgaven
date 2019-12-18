@@ -151,9 +151,6 @@ nav .dropdown:hover {
 
 
 
-
-
-
 nav .dropdown:hover + #tilbud_button {
     display: none;
 }
@@ -188,9 +185,9 @@ nav .dropdown:hover + #tilbud_button {
     height: 4.33vw;
     width: 15vw;
 
-    margin-right: 2vw;
-    margin-left: 29vw;
-    margin-top: 0.6vw;
+    margin-right: 0vw;
+    margin-left: 83.2vw;
+    margin-top: -5vw;
 
 
     background-size: cover;
@@ -364,6 +361,10 @@ video {
 
 /************** contact *************/
 
+#form_container {
+    margin-left: 60px;
+}
+
 input[type=text],
 select,
 textarea {
@@ -410,10 +411,7 @@ input[type=submit]:hover {
 .baggrund_billede {
     border-radius: 0.3vw;
     background-image: url(billeder/kontakt_billede.png);
-    padding: 1vw;
-    width: 30vw;
-    height: 40vw;
-    background-size: cover;
+    padding: 2vw;
     position: relative;
     background-position: center;
 }
@@ -422,18 +420,32 @@ input[type=submit]:hover {
 
 #contact .sectionwrapper {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+<<<<<<< HEAD
     flex-basis: 2;
+=======
+
+>>>>>>> origin/master
 }
 
 #contact .sectionwrapper .col {
     flex-grow: 1;
+<<<<<<< HEAD
     width: 100vw;
+=======
+    flex-basis: 350px;
+
+>>>>>>> origin/master
 }
 
 #contact .sectionwrapper .form {
     flex-grow: 1;
+<<<<<<< HEAD
     margin-left: 2vw;
+=======
+    flex-basis: 350px;
+>>>>>>> origin/master
 }
 
 #contact {
@@ -447,6 +459,11 @@ input[type=submit]:hover {
 
 #contact h1 {
     color: #F7F6F4;
+}
+
+.form h1 {
+    color: #F7F6F4;
+    text-align: left;
 }
 
 /** Maps **/
@@ -593,6 +610,10 @@ footer h1 {
     .slide8 {
         left: -720vw;
     }
+
+    #form_container {
+        margin-left: 0px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -644,6 +665,27 @@ footer h1 {
 
 
     }
+
+    #tilbud_button {
+        float: right;
+        background-image: url(billeder/tilbud_div.svg);
+        height: 2.88vw;
+        width: 10vw;
+
+        margin-right: 0vw;
+        margin-left: 83.2vw;
+        margin-top: 0vw;
+
+
+        background-size: cover;
+
+
+        z-index: 11;
+
+
+
+    }
+
 
 
 
