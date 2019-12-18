@@ -423,23 +423,18 @@ input[type=submit]:hover {
 #contact .sectionwrapper {
     display: flex;
     flex-direction: row;
-
     flex-basis: 2;
 }
 
 #contact .sectionwrapper .col {
     flex-grow: 1;
     width: 100vw;
-
 }
 
 #contact .sectionwrapper .form {
     flex-grow: 1;
     margin-left: 2vw;
-
 }
-
-
 
 #contact {
     margin: 0;
@@ -461,10 +456,7 @@ input[type=submit]:hover {
     height: 40vw;
     background-image: url(billeder/map_background.png);
     background-size: cover;
-
 }
-
-
 
 /**************footer*************/
 
