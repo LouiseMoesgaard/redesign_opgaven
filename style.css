@@ -362,7 +362,7 @@ video {
 /************** contact *************/
 
 #form_container {
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 input[type=text],
@@ -434,7 +434,6 @@ input[type=submit]:hover {
 #contact .sectionwrapper .form {
     flex-grow: 1;
     flex-basis: 350px;
-    margin-left: 2vw;
 }
 
 #contact {
@@ -516,14 +515,6 @@ footer h1 {
 }
 
 
-
-/**************animationer start********/
-
-/**************animationer slut********/
-
-
-
-
 /************** media query **********/
 @media only screen and (max-width: 600px) {
     .slide .text {
@@ -601,7 +592,7 @@ footer h1 {
     }
 
     #form_container {
-        margin-left: 0px;
+        margin-left: 0;
     }
 
     ::placeholder {
