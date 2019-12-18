@@ -151,9 +151,6 @@ nav .dropdown:hover {
 
 
 
-
-
-
 nav .dropdown:hover + #tilbud_button {
     display: none;
 }
@@ -188,9 +185,9 @@ nav .dropdown:hover + #tilbud_button {
     height: 4.33vw;
     width: 15vw;
 
-    margin-right: 2vw;
-    margin-left: 29vw;
-    margin-top: 0.6vw;
+    margin-right: 0vw;
+    margin-left: 83.2vw;
+    margin-top: -5vw;
 
 
     background-size: cover;
@@ -425,21 +422,42 @@ input[type=submit]:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+    flex-basis: 2;
+=======
+
+>>>>>>> origin/master
+>>>>>>> origin/master
 }
 
 #contact .sectionwrapper .col {
     flex-grow: 1;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    width: 100vw;
+=======
+>>>>>>> origin/master
     flex-basis: 350px;
 
+>>>>>>> origin/master
 }
 
 #contact .sectionwrapper .form {
     flex-grow: 1;
+<<<<<<< HEAD
     flex-basis: 350px;
+=======
+<<<<<<< HEAD
+    margin-left: 2vw;
+=======
+    flex-basis: 350px;
+>>>>>>> origin/master
+>>>>>>> origin/master
 }
-
-
 
 #contact {
     margin: 0;
@@ -466,10 +484,7 @@ input[type=submit]:hover {
     height: 40vw;
     background-image: url(billeder/map_background.png);
     background-size: cover;
-
 }
-
-
 
 /**************footer*************/
 
@@ -661,6 +676,27 @@ footer h1 {
 
 
     }
+
+    #tilbud_button {
+        float: right;
+        background-image: url(billeder/tilbud_div.svg);
+        height: 2.88vw;
+        width: 10vw;
+
+        margin-right: 0vw;
+        margin-left: 83.2vw;
+        margin-top: 0vw;
+
+
+        background-size: cover;
+
+
+        z-index: 11;
+
+
+
+    }
+
 
 
 
