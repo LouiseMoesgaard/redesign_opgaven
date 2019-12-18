@@ -638,14 +638,17 @@ footer h1 {
     }
 
     #fb_icon {
-
         margin-left: 18vw;
+        height: 2vw;
+        width: 2vw;
+
 
     }
 
     #ig_icon {
-
         margin-right: 18vw;
+        height: 2vw;
+        width: 2vw;
 
 
 
