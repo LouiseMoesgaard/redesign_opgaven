@@ -151,9 +151,6 @@ nav .dropdown:hover {
 
 
 
-
-
-
 nav .dropdown:hover + #tilbud_button {
     display: none;
 }
@@ -188,9 +185,9 @@ nav .dropdown:hover + #tilbud_button {
     height: 4.33vw;
     width: 15vw;
 
-    margin-right: 2vw;
-    margin-left: 29vw;
-    margin-top: 0.6vw;
+    margin-right: 0vw;
+    margin-left: 83.2vw;
+    margin-top: -5vw;
 
 
     background-size: cover;
@@ -651,6 +648,27 @@ footer h1 {
 
 
     }
+
+    #tilbud_button {
+        float: right;
+        background-image: url(billeder/tilbud_div.svg);
+        height: 2.88vw;
+        width: 10vw;
+
+        margin-right: 0vw;
+        margin-left: 83.2vw;
+        margin-top: 0vw;
+
+
+        background-size: cover;
+
+
+        z-index: 11;
+
+
+
+    }
+
 
 
 
