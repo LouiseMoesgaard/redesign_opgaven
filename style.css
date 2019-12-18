@@ -368,15 +368,15 @@ video {
 input[type=text],
 select,
 textarea {
-    width: 80%;
+    width: 100%;
     /* Full width */
-    padding: 0.7vw;
+    padding: 3.2vw;
     /* padding around text and box */
-    border-radius: 0.5vw;
+    border-radius: 1vw;
     /* Rounded borders */
     box-sizing: border-box;
     /* Make sure that padding and width stays in place */
-    margin-top: 0.2vw;
+    margin-top: 3.2vw;
     /* Add a top margin */
     margin-bottom: 1vw;
     /* Bottom margin */
@@ -389,6 +389,7 @@ textarea {
 
 ::placeholder {
     color: rgba(247, 246, 244, 0.65);
+    font-size: 1.2vw;
 }
 
 input[type=besked] {
@@ -422,30 +423,18 @@ input[type=submit]:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-<<<<<<< HEAD
-    flex-basis: 2;
-=======
-
->>>>>>> origin/master
 }
 
 #contact .sectionwrapper .col {
     flex-grow: 1;
-<<<<<<< HEAD
     width: 100vw;
-=======
     flex-basis: 350px;
-
->>>>>>> origin/master
 }
 
 #contact .sectionwrapper .form {
     flex-grow: 1;
-<<<<<<< HEAD
-    margin-left: 2vw;
-=======
     flex-basis: 350px;
->>>>>>> origin/master
+    margin-left: 2vw;
 }
 
 #contact {
@@ -614,6 +603,11 @@ footer h1 {
     #form_container {
         margin-left: 0px;
     }
+
+    ::placeholder {
+        font-size: 4vw;
+    }
+
 }
 
 @media only screen and (min-width: 600px) {
