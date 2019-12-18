@@ -361,6 +361,10 @@ video {
 
 /************** contact *************/
 
+#form_container {
+    margin-left: 60px;
+}
+
 input[type=text],
 select,
 textarea {
@@ -407,9 +411,7 @@ input[type=submit]:hover {
 .baggrund_billede {
     border-radius: 0.3vw;
     background-image: url(billeder/kontakt_billede.png);
-    padding: 1vw;
-    width: 30vw;
-    background-size: cover;
+    padding: 2vw;
     position: relative;
     background-position: center;
 }
@@ -418,21 +420,20 @@ input[type=submit]:hover {
 
 #contact .sectionwrapper {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
 
-    flex-basis: 2;
 }
 
 #contact .sectionwrapper .col {
     flex-grow: 1;
-    width: 100px;
+    flex-basis: 350px;
 
 }
 
 #contact .sectionwrapper .form {
     flex-grow: 1;
-    margin-left: 2vw;
-
+    flex-basis: 350px;
 }
 
 
@@ -448,6 +449,11 @@ input[type=submit]:hover {
 
 #contact h1 {
     color: #F7F6F4;
+}
+
+.form h1 {
+    color: #F7F6F4;
+    text-align: left;
 }
 
 /** Maps **/
@@ -596,6 +602,10 @@ footer h1 {
 
     .slide8 {
         left: -720vw;
+    }
+
+    #form_container {
+        margin-left: 0px;
     }
 }
 
