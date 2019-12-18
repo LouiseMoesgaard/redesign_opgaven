@@ -158,12 +158,12 @@ nav .dropdown:hover + #tilbud_button {
     display: none;
 }
 
-nav .dropdown:hover + #nav_logo {
+/*nav .dropdown:hover + #nav_logo {
 
     display: none;
 }
 
-#nav_logo {
+/*#nav_logo {
     float: right;
     background-image: url(billeder/logo_menu.svg);
     position: relative;
@@ -180,7 +180,7 @@ nav .dropdown:hover + #nav_logo {
 
 
 
-}
+} */
 
 #tilbud_button {
     float: right;
